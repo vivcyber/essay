@@ -46,7 +46,12 @@ p{
    
    margin: 0;
    /* outline: 1px solid blueviolet; */
+  
 
+}
+.session{
+    /* outline: 1px solid salmon; */
+    margin-left: 100px;
 }
 .pic{
     width: 400px;
