@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(229, 218, 194);
+    background-color: rgb(216, 218, 212);
     font-family: 'Shippori Mincho', serif;
     color: rgb(68, 94, 104);
 }
@@ -53,6 +53,12 @@ p{
     height: 400px;
     overflow: hidden;
     filter: grayscale(100);
+}
+.title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 24px;
 }
 
 
