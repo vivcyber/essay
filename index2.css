@@ -30,39 +30,46 @@ p{
     
 }
 
+
+
 .poetry{
+    position: absolute;
+    right: 0;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
     height: 500px;
     width: 100%;
+    overflow-y: scroll;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+   
+   margin: 0;
+   /* outline: 1px solid blueviolet; */
+
 }
 .pic{
     width: 400px;
     height: 400px;
+    overflow: hidden;
+    filter: grayscale(100);
 }
 
 
 
+
 @media (min-width: 768px) {
+    
     .poetry{
-        position: absolute;
-        right: 0;
-        -webkit-writing-mode: vertical-rl;
-        writing-mode: vertical-rl;
+       
         height: 600px;
         width: 100%;
-        overflow-y: scroll;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    
-       
-       margin: 0;
-       /* outline: 1px solid blueviolet; */
-    
+        
     }
     .pic{
         width: 500px;
         height: 500px;
-        overflow: hidden;
-        filter: grayscale(100);
+      
     }
 
 }
